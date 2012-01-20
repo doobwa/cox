@@ -1,0 +1,10 @@
+Chris DuBois
+January 10th, 2012
+
+Code for fitting a Cox model of the form:
+
+P(Y|X,\beta) = \prod_{i=1}^n beta' x_{i,y_i} / \sum_{j = 1}^{J_i} beta' x_{i,j}
+
+cox.r: R functions for obtaining MLE, MAP estimates and performing MCMC 
+cox.cpp: C++ code for computing the likelihood and gradient
+cox.cpp.r: Wrapper functions for the C++ code.
